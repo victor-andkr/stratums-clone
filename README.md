@@ -1,6 +1,27 @@
 # Stratums.io Reborn
 
-Fully working Stratums.io private server
+Fully working Stratums.io private server, adapted from Stratums.io-Archive and stratums-client-source.
+
+## Adaptation from Stratums.io-Archive
+
+This project is faithful to the original Stratums.io files from the archive:
+
+### Client
+- **HTML**: Original `index.html` from Stratums.io-Archive with obfuscated UI elements
+- **CSS**: Original `8c2d89d177.css` from Stratums.io-Archive
+- **Favicon**: Original `favicon.png` from Stratums.io-Archive
+- **Bundle Data**: Items, accessories, and AI definitions extracted from `bundle-deobf.js`
+
+### Server
+- **Items**: Complete weapon, projectile, and item definitions from Stratums.io-Archive
+- **Accessories**: Complete hats and tails data from Stratums.io-Archive
+- **AI Definitions**: All animal types from Stratums.io-Archive (cow, pig, bull, wolf, scorpion, skeleton, etc.)
+
+## Fidelity to Stratums.io-Archive
+- **Items**: 16 weapons, 6 projectiles, 14 groups, 28 constructible items
+- **Accessories**: 38 hats, 21 tails with exact effects from the original
+- **AI**: 11 animal types with original behavior definitions
+- **Network**: WebSocket URL: `wss://plankton-app-29vjq.ondigitalocean.app/1`
 
 ## Project structure
 - `client/` Webpack-powered front-end source and static assets.
