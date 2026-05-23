@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "moduleDetection": "force",
+    "allowJs": true,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist/types",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "types": ["node"],
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@assets/*": ["src/assets/*"],
+      "@domain/*": ["src/domain/*"],
+      "@shared/*": ["src/shared/*"],
+      "@mod/*": ["src/mod/*"],
+      "@ui/*": ["src/ui/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/types/**/*.d.ts",
+    "webpack.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "output",
+    "docs"
+  ]
+}
