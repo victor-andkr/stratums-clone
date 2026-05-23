@@ -3,30 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta property="og:image:alt" content="Stratums.io promotional artwork showing players defending a base">
-    <link rel="stylesheet" href="/css/stratums.css">
+    <meta property="og:image:alt" content="MooMoo.io promotional artwork showing players defending a base">
     <link rel="stylesheet" href="/css/hammersmith-one.css">
     <link rel="stylesheet" href="/css/material-icons.css">
     <link rel="stylesheet" href="/css/main.css">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Play Stratums.io — Multiplayer Survival .io Game">
+    <meta name="twitter:title" content="Play MooMoo.io — Multiplayer Survival .io Game">
     <meta name="twitter:description"
-        content="Join the ultimate survival .io experience. Build, team up, and dominate the Stratums.io battlefield in your browser.">
-    <meta name="twitter:image" content="https://stratums.io/img/promotion/banner_4.png">
-    <meta name="twitter:image:alt" content="Stratums.io promotional artwork of a fortified base under attack">
+        content="Join the ultimate survival .io experience. Build, team up, and dominate the MooMoo.io battlefield in your browser.">
+    <meta name="twitter:image" content="https://moomoo.al007ex.com/img/promotion/banner_4.png">
+    <meta name="twitter:image:alt" content="MooMoo.io promotional artwork of a fortified base under attack">
 
     <!-- Structured Data: WebSite + Organization + VideoGame -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Stratums.io",
-            "url": "https://stratums.io/",
+            "name": "MooMoo.io",
+            "url": "https://moomoo.al007ex.com/",
             "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://stratums.io/?q={search_term_string}",
+            "target": "https://moomoo.al007ex.com/?q={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     }
@@ -35,11 +34,11 @@
         {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Stratums.io Entertainment",
-            "url": "https://stratums.io/",
+            "name": "Yendis Entertainment",
+            "url": "https://moomoo.al007ex.com/",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://stratums.io/img/favicon.png",
+            "url": "https://moomoo.al007ex.com/img/favicon.png",
             "width": 180,
             "height": 180
     }
@@ -49,23 +48,23 @@
     {
         "@context": "https://schema.org",
         "@type": "VideoGame",
-        "name": "Stratums.io",
-        "url": "https://stratums.io/",
-        "image": "https://stratums.io/img/promotion/banner_4.png",
-        "description": "Stratums.io is a free-to-play multiplayer survival .io game where players gather resources, craft weapons, and build bases to outlast opponents.",
+        "name": "MooMoo.io",
+        "url": "https://moomoo.al007ex.com/",
+        "image": "https://moomoo.al007ex.com/img/promotion/banner_4.png",
+        "description": "MooMoo.io is a free-to-play multiplayer survival .io game where players gather resources, craft weapons, and build bases to outlast opponents.",
         "applicationCategory": "Game",
         "operatingSystem": "Web Browser",
             "genre": ["Multiplayer", "Survival", "Strategy"],
             "publisher": {
             "publisher": {
                 "@type": "Organization",
-                "name": "Stratums.io Entertainment"
+                "name": "Yendis Entertainment"
             },
             "potentialAction": {
                 "@type": "PlayAction",
                 "target": {
                     "@type": "EntryPoint",
-                    "urlTemplate": "https://stratums.io/"
+                    "urlTemplate": "https://moomoo.al007ex.com/"
                 }
             }
         }
@@ -80,7 +79,7 @@
     <script src="./libs/jquery-3.2.1.min.js"></script>
     <script src="./libs/jquery-ui.js"></script>
     <div id="errorNotification" class="menuCard" style="display:none">
-        <div>It looks like Stratums.io ran in to a problem. Please try <a target="_blank"
+        <div>It looks like MooMoo ran in to a problem. Please try <a target="_blank"
                 href="https://www.computerhope.com/issues/ch001411.htm">disabling all of your browser extensions</a> and
             reloading the page.</div>
         <div style="text-align:center"><a onclick="errorNotification.style.display = 'none' "
@@ -89,7 +88,7 @@
     <div id="shutdownDisplay" hidden></div>
     <div id="mainMenu">
         <div id="menuContainer">
-            <div id="gameName">STRATUMS.io</div>
+            <div id="gameName">MOOMOO.io</div>
             <div id="loadingText">Loading...</div>
             <div id="menuCardHolder" style="display:none">
                 <!-- Left Column - Leaderboard -->
@@ -281,7 +280,7 @@
                                             <span>Welcome</span>
                                         </div>
                                         <div class="menuText" style="margin-bottom: 12px;">
-                                            Welcome to Stratums.io! Build your village, gather resources, and defend
+                                            Welcome to MooMoo.io! Build your village, gather resources, and defend
                                             against other
                                             players.
                                         </div>
@@ -390,7 +389,7 @@
                             <i class="material-icons" style="font-size: 95px; color: #7ee559;">account_circle</i>
                         </div>
                         <div class="menuHeader" style="text-align:center; margin-bottom: 6px; font-size: 22px;">Welcome
-                            to Stratums.io</div>
+                            to MooMoo.io</div>
                         <div class="menuText"
                             style="text-align:center; margin-bottom: 14px; font-size: 17px; line-height: 1.4;">Sign in
                             to save your
@@ -433,7 +432,7 @@
         </div>
         <div id="linksExpandedPanel" class="hidden" aria-live="polite" aria-label="Info panel">
             <div class="expandedPanelHeader">
-                <span style="color: #666;">Stratums.io</span> <span style="cursor: pointer;" id="versionText">v1.8.1</span>
+                <span style="color: #666;">Moomoo.io</span> <span style="cursor: pointer;" id="versionText">v1.8.1</span>
             </div>
             <div class="expandedPanelSection">
                 <div class="expandedPanelSectionTitle">COMMUNITY</div>
@@ -473,19 +472,19 @@
         </div>
 
         <div id="youtuberOf" class="legacyHidden">
-            Featured Stratums Creator:
+            Featured Mootuber:
             <div class="spanLink" id="featuredYoutube"><a target="_blank" class="ytLink"
                     href="https://web.archive.org/web/20200602171143/https://www.youtube.com/channel/UCj6C_tiDeATiKd3GX127XoQ">
                     <iclass="material-icons" style="vertical-align: top;"></i> LightThief</a></div>
         </div>
-        <div id="youtuberPanelToggle" aria-label="Open Stratums Creator panel">
+        <div id="youtuberPanelToggle" aria-label="Open Mootuber panel">
             <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M10,16.5V7.5L16,12M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
             </svg>
         </div>
-        <div id="youtuberExpandedPanel" class="hidden" aria-live="polite" aria-label="Featured Stratums Creators">
+        <div id="youtuberExpandedPanel" class="hidden" aria-live="polite" aria-label="Featured Mootubers">
             <div class="expandedPanelHeader">
-                <span style="color: #666;">Featured</span> <span style="color: #a56dc8;">Stratums Creators</span>
+                <span style="color: #666;">Featured</span> <span style="color: #a56dc8;">Mootubers</span>
             </div>
             <div class="expandedPanelSection">
                 <div class="expandedPanelSectionTitle">CONTENT CREATORS</div>
